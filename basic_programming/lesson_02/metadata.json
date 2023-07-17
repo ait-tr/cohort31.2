@@ -1,0 +1,11 @@
+{
+  "topic": "IDE IntelliJ IDEA",
+  "date": "2023-07-19",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/jet_brains/src/Main.java"
+  ],
+  "video": ""
+}
