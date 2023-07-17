@@ -140,3 +140,20 @@ C# – уверенный середнячок с большим потенци�
 
 
 ## 05. Hello, World
+
+```
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World");
+    }
+}
+```
+
+```agsl
+javac HelloWorld.java
+```
+
+```
+java HelloWorld
+
+```
