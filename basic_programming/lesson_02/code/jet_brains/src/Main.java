@@ -1,12 +1,16 @@
 public class Main {
     public static void main(String[] args) {
 
-        //        комментарий к коду - закомментировать строку Ctrl + D
+//          комментарий к коду - закомментировать строку Ctrl + /
+//        дублирование строки - Ctrl + D
+//        Шаблон для вывода System.out.println() - sout + Tab
+
         int myFirstVariable; // декларация (объявление) переменной
 //        какие-то строки кода
         myFirstVariable = 25; // инициализация переменной (присвоение значения)
 
         int mySecondVariable = 2;
+
 
         System.out.println("my first variable: " + myFirstVariable); //выводим значение переменной на экран
         System.out.println(mySecondVariable); //выводим значение переменной на экран
@@ -28,7 +32,7 @@ public class Main {
         doubleVar = 1.5665; // присваиваем новое значение
         System.out.println(doubleVar); //выводим значение переменной doubleVar на экран
 
-        //выровнять код Ctrl + Shift + L
+//        Выравнивание кода: Ctrl + Alt + L
 
     }
 
