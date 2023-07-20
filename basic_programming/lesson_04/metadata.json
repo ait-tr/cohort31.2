@@ -1,11 +1,11 @@
 {
-  "topic": "",
+  "topic": "Bits % Bytes, type char, class String",
   "date": "2023-07-21",
   "plan": "plan.md",
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/Main.java"
+    "code/src/Main04.java"
   ],
   "video": ""
 }
