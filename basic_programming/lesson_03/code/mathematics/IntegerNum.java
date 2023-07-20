@@ -1,100 +1,73 @@
 public class IntegerNum {
     public static void main(String[] args) {
-        System.out.println("Арифметические действия и класс Math");
+        System.out.println("Mathematics ");
 
+        int x = 20;
+        int y = 10;
+
+        int z = x - y; // = - это присвоение, а не "равенство", как было в школе
+
+        System.out.println("  z  =  x - y  : "  +  z); // в кавычках - это текстовое оформление, сопровождение
+        z = x * y;
+        System.out.println("  z  =  x * y  : "  +  z);
+
+        int a = 57;
+        int b = 10;
+
+        // деление целых чисел
+        int с = a / b;
+
+        System.out.println("Division " + a + " / " + b + " = " + с ); // целочисленное деление
+
+        int d = a % b;
+
+        System.out.println("Division " + a + " % " + b + " = " + d ); // целочисленное деление c остатком
+
+        int n = 60 % 12; // остаток от деления
+        System.out.println(" 60 % 12 = " + n);
+
+        System.out.println("========= вещественные числа ========");
+
+        double f = 10.0D;
+        double g = 9.8;
+        double e = f / g;
+        System.out.println("Result " + f + " / " + g + " = " + e);
+
+        // форматированный вывод
+        System.out.printf("Result = %.2f ", e);
+
+        // преобразование типов
+        int num1 = 10;
+        int num2 = 3;
+
+        double d1 = (double) num1 / (double) num2; // преобразование типа int в тип double
+        System.out.println();
+        System.out.println(d1);
+
+        int num3 = (int) d1; // преобразование типа
+        System.out.println(num3);
+
+        System.out.println("======= методы класса Math. =======");
+
+        double r = 10;
+        double length = 2 * Math.PI * r; // длина окружности
+        System.out.println("Length of circle is : " + length);
+
+        double area =  Math.PI * Math.pow(r, 2); // Пи * r в квадрате - это площадь круга
+        System.out.println("Area of circle is : " + area);
+
+        System.out.println(" ==== инкремент и декремент =======");
         int i = 0;
-        i++; // увеличение значения i на 1
-        i = i + 1;
-        System.out.println(i);
+
+        ++i; // увеличение на 1
+
+        System.out.println("i = " + i);
+
+        i++; // увеличение на 1
+
+        System.out.println("i = " + i);
+
+        // += , -=, *= , /=  - провести эксперименты, что получается. Прочитать в статьях.
 
     }
 }
-
-
-/*
-     //   x = x + 1;
-        x++; // увеличение значения на 1
-        System.out.println(x);
-
-        y--;
-        System.out.println(y);
-
-        x += 10; // увеличение переменной на 10
-        System.out.println("X = " + x);
-
-        y -= 4; // уменьшение переменной на 4
-        System.out.println(y);
-
-        // x = 2 * x;
-        x *= 2; //увеличение переменной в 2 раза
-        System.out.println("X = " + x);
-
-        ____________________________
-        int x = 57;
-        int y = 10;
-
-        int z;
-        z = x / y;
-        System.out.println("Частное " + x + " и " + y + " = " + z);
-
-        int zz;
-        zz = x % y; // получаем остаток от деления
-        System.out.println("Остаток от деления " + x + " на " + y + " = " + zz);
-
-        int x1 = 3;
-        int y1 = 10;
-
-        int z1;
-        z1 = x1 / y1;
-        System.out.println("Частное " + x1 + " и " + y1 + " = " + z1);
-
-        int zz1;
-        zz1 = x1 % y1;
-        System.out.println("Остаток от деления " + x1 + " на " + y1 + " = " + zz1);
-
-        int a = 12;
-        System.out.println(a % 4); // деление с остатком
-        System.out.println(a % 6); // деление с остатком
-        // когда число разделилось нацело, то остаток от деления = 0
-        ___________
-        // операции с числами с плавающей запятой, с десятичным разделителем
-        double a = 10.0d;
-        double b = 7.0d;
-
-        double c;
-        c = a / b;
-        System.out.println(c);
-
-        System.out.printf("Результат деления: %f2", c); // форматированный вывод
-
-        ____________
-              // примеры использования Math
-
-        int x, y;
-        x = 135;
-        y = 213;
-
-        int z = Math.max(x, y);
-        System.out.println("Максимальное из " + x + " и " + y + " = " + z);
-
-        int z1 = Math.min(x, y);
-        System.out.println("Минимальное из " + x + " и " + y + " = " + z1);
-
-        int a = -321;
-        System.out.println(Math.abs(a)); // модуль числа a
-
-        int b = 512;
-        System.out.println(Math.abs(b)); // модуль числа b
-
-        int n = 2;
-        int k = 10;
-        int pow2 = (int) Math.pow(n, k); // возведение в степень
-        System.out.println(pow2);// целое число
-        double pow2d = Math.pow(n, k);
-        System.out.println(pow2d); // дробное число
-
-        System.out.println(Math.PI); // число Пи
-
-        double s = Math.sqrt(10000.0d); // извлечение квадратного корня
-        System.out.println(s);
- */
