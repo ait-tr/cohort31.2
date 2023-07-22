@@ -9,7 +9,5 @@ public class Main06 {
 
         System.out.println(x); // x => 25
 //        x = x + y; // ошибка компиляции
-
-        System.out.println((x == 10) ? "x = 10" : "x != 10");
     }
 }
