@@ -1,0 +1,11 @@
+{
+  "topic": "The if statement",
+  "date": "2023-07-25",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/Main06.java"
+  ],
+  "video": ""
+}
