@@ -1,0 +1,11 @@
+{
+  "topic": "loops while, do-while",
+  "date": "2023-07-27",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/Main08.java"
+  ],
+  "video": ""
+}
