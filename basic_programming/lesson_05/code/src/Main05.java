@@ -5,7 +5,7 @@ public class Main05 {
 
         Random random = new Random();
 
-        int random1 = random.nextInt(10);
-        System.out.println(random1);
+        int randomInt = random.nextInt(10);
+        System.out.println(randomInt);
     }
 }
