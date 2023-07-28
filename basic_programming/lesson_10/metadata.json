@@ -1,0 +1,11 @@
+{
+  "topic": "arrays",
+  "date": "2023-07-31",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/Main10.java"
+  ],
+  "video": ""
+}
