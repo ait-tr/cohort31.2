@@ -93,7 +93,7 @@ public class HW12 {
         for (int i = 0; i < resultShort.length; i++) {
             resultShort[i] = resultLong[i];
         }
-        int[] ints = Arrays.copyOf(resultLong, 3); // готовый метод для копирования части массива
+        int[] ints = Arrays.copyOf(resultLong, count); // готовый метод для копирования части массива
         return resultShort;
 
     }
