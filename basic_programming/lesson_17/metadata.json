@@ -6,7 +6,10 @@
   "homework": "homework.md",
   "code": [
     "code/src/Main17.java",
-    "code/src/Cat.java"
+    "code/src/Lesson17.java",
+    "code/src/Cat.java",
+    "code/src/Dog.java",
+    "code/src/MainDog.java"
   ],
   "video": ""
 }
