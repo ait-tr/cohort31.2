@@ -5,11 +5,7 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/Main19.java",
-    "code/src/Car.java",
-    "code/src/Test.java",
-    "code/src/MathUtils.java"
-
+    "code/src/Main19.java"
   ],
   "video": ""
 }
