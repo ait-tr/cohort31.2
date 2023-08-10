@@ -3,20 +3,20 @@ public class Main16 {
     public static void main(String[] args) {
 
 
-        Cat cat = new Cat();
+        Cat2 cat = new Cat2();
 
 
         cat.sayMeow();
         System.out.println(cat.age);
         cat.running();
 
-        Cat cat1 = new Cat(5);
+        Cat2 cat1 = new Cat2(5);
         System.out.println(cat1.age);
         System.out.println(cat1.name);
 
         System.out.println("==================");
 
-        Cat cat2 = new Cat(3, "Max");
+        Cat2 cat2 = new Cat2(3, "Max");
         cat2.sayMeow();
         cat2.running();
         System.out.println("Cat name: " + cat2.name);
@@ -24,7 +24,7 @@ public class Main16 {
 
         System.out.println("===================");
 
-        Cat catBoris = new Cat(5, "Boris", "red");
+        Cat2 catBoris = new Cat2(5, "Boris", "red");
 
         catBoris.sleep();
         System.out.println("Cat name: " + catBoris.name);

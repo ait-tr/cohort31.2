@@ -45,23 +45,23 @@
 
 Здесь мы говорили про сокрытие реализации. Кроме него в Java есть еще сокрытие данных.
 
-Давайте потренируемся на кошках. Напишем класс Cat:
+Давайте потренируемся на кошках. Напишем класс Cat2:
 
 ```
-public class Cat {
+public class Cat2 {
    
    public String name;
    public int age;
    public int weight;
 
 
-   public Cat(String name, int age, int weight) {
+   public Cat2(String name, int age, int weight) {
        this.name = name;
        this.age = age;
        this.weight = weight;
    }
 
-   public Cat() {
+   public Cat2() {
    }
 
    public void sayMeow() {
@@ -75,7 +75,7 @@ public class Cat {
 ```
 public static void main(String[] args) {
   
-   Cat cat = new Cat();
+   Cat2 cat = new Cat2();
 
    cat.name = "";
    cat.age = -1000;
