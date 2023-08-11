@@ -6,7 +6,9 @@
   "homework": "homework.md",
   "code": [
     "code/src/Main19.java",
-    "code/src/Auto.java"
+    "code/src/Auto.java",
+    "code/src/RaTestMain.java",
+    "code/src/RubberArray2.java"
   ],
   "video": ""
 }
