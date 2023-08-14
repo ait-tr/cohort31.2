@@ -1,0 +1,11 @@
+{
+  "topic": "linear search, selective sorting, binary search",
+  "date": "2023-08-15",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/Main21.java"
+      ],
+  "video": ""
+}
