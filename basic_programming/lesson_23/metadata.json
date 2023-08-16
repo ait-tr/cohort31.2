@@ -1,0 +1,11 @@
+{
+  "topic": "Composition, Aggregation",
+  "date": "2023-08-17",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/Main23.java"
+      ],
+  "video": ""
+}
