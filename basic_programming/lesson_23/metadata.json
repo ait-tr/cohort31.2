@@ -5,7 +5,10 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/Main23.java"
+    "code/src/Main23.java",
+    "code/src/Bus.java",
+    "code/src/BusDriver.java",
+    "code/src/AutoPilotBus.java"
       ],
   "video": ""
 }
