@@ -5,7 +5,21 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/Main24.java"
-      ],
+    "code/src/animals/Main24.java",
+    "code/src/animals/Animal.java",
+    "code/src/animals/Cat.java",
+    "code/src/animals/Dog.java",
+    "code/src/animals/Hamster.java",
+    "code/src/shapes/MainShapes.java",
+    "code/src/shapes/Rectangle.java",
+    "code/src/shapes/Round.java",
+    "code/src/shapes/Shape.java",
+    "code/src/MainPaper.java",
+    "code/src/Brush.java",
+    "code/src/Marker.java",
+    "code/src/Paper.java",
+    "code/src/Pen.java",
+    "code/src/Pencil.java"
+  ],
   "video": ""
 }
