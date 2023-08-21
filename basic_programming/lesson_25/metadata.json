@@ -1,0 +1,12 @@
+{
+  "topic": "Polymorphism",
+  "date": "2023-08-18",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/main/Main24.java"
+
+  ],
+  "video": ""
+}
