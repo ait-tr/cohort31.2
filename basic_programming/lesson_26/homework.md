@@ -1,0 +1,1 @@
+Продолжить   реализацию нашего проекта PizzaFactory ( см. pizza_factory )
