@@ -3,9 +3,25 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/garden_project/src/Garden.java",
-   "code/garden_project/src/Plant.java",
-   "code/garden_project/src/Tree.java"
+   "code/garten_project/src/Flower.java",
+   "code/garten_project/src/Garden.java",
+   "code/garten_project/src/Plant.java",
+   "code/garten_project/src/Tree.java",
+   "code/our_interfaces/src/A.java",
+   "code/our_interfaces/src/Breakable.java",
+   "code/our_interfaces/src/Car.java",
+   "code/our_interfaces/src/ConstantsClass.java",
+   "code/our_interfaces/src/InterfaceConstants.java",
+   "code/our_interfaces/src/InterfaceDefault.java",
+   "code/our_interfaces/src/Main.java",
+   "code/our_interfaces/src/Movable.java",
+   "code/series/src/AB.java",
+   "code/series/src/B.java",
+   "code/series/src/ClassDefault.java",
+   "code/series/src/Fourth.java",
+   "code/series/src/Main.java",
+   "code/series/src/Series.java",
+   "code/series/src/Twice.java"
     ],
   "video": ""
 }
