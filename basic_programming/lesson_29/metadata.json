@@ -3,7 +3,17 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/series/src/Main.java"
+   "code/cars/src/Application.java",
+   "code/cars/src/Car.java",
+   "code/cars/src/Kangaroo.java",
+   "code/cars/src/Movable.java",
+   "code/cars/src/PassengerCar.java",
+   "code/cars/src/Truck.java",
+   "code/homework29/src/Circle.java",
+   "code/homework29/src/Main.java",
+   "code/homework29/src/Rectangle.java",
+   "code/homework29/src/Shape.java",
+   "code/homework29/src/ShapeCalculator.java"
 
     ],
   "video": ""
