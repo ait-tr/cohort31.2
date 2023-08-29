@@ -3,8 +3,17 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/main31/src/Main.java",
-   "code/main31/src/Practice.java"
+   "code/gen_interfaces/src/Person1.java",
+   "code/gen_interfaces/src/Personasable.java",
+   "code/main31/src/Homework.java",
+   "code/main31/src/Practice.java",
+   "code/wrapper_classes_and_generics/src/Main.java",
+   "code/wrapper_classes_and_generics/src/Main1.java",
+   "code/wrapper_classes_and_generics/src/OurGenerics.java",
+   "code/wrapper_classes_and_generics/src/Person.java",
+   "code/wrapper_classes_and_generics/src/Person2.java",
+   "code/wrapper_classes_and_generics/src/Person3.java",
+   "code/wrapper_classes_and_generics/src/Printer.java"
 
     ],
   "video": ""
