@@ -3,7 +3,22 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/homework32/src/Homework.java"
+    "code/animals/src/AnimalMain.java",
+    "code/cars33/src/Car.java",
+    "code/cars33/src/CarDemo.java",
+    "code/cars33/src/CarDemoTest.java",
+    "code/comparable_interface/src/Main.java",
+    "code/comparable_interface/src/Player.java",
+    "code/comparator_interface/src/Author.java",
+    "code/comparator_interface/src/BookNameComparator.java",
+    "code/comparator_interface/src/Main.java",
+    "code/comparator_interface/src/PublishingYearComparator.java",
+    "code/homework33/src/Circle.java",
+    "code/homework33/src/Main.java",
+    "code/homework33/src/Rectangle.java",
+    "code/homework33/src/Shape.java",
+    "code/homework33/src/ShapeCalculator.java",
+    "code/homework33/src/ShapeCalculatorTest.java"
        ],
   "video": ""
 }
