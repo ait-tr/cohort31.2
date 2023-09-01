@@ -3,7 +3,18 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/animals/src/AnimalMain.java"
+    "code/accounting/src/Company.java",
+    "code/accounting/src/Employee.java",
+    "code/accounting/src/Main.java",
+    "code/accounting/src/SalesManager.java",
+    "code/accounting/src/StateConstants.java",
+    "code/accounting/src/WageEmployee.java",
+    "code/animals34/src/Animal.java",
+    "code/animals34/src/AnimalMain.java",
+    "code/animals34/src/AnimalMainTest.java",
+    "code/animals34/src/ComparatorByLastLetter.java",
+    "code/animals34/src/ComparatorByName.java",
+    "code/animals34/src/ComparatorByWeight.java"
 
        ],
   "video": ""
