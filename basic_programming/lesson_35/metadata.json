@@ -3,12 +3,25 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/accounting/src/Company.java",
-    "code/accounting/src/Employee.java",
-    "code/accounting/src/Main.java",
-    "code/accounting/src/SalesManager.java",
-    "code/accounting/src/StateConstants.java",
-    "code/accounting/src/WageEmployee.java"
+    "code/accounting35/src/Company.java",
+    "code/accounting35/src/ComparatorById.java",
+    "code/accounting35/src/ComparatorByNameThenId.java",
+    "code/accounting35/src/Employee.java",
+    "code/accounting35/src/Main.java",
+    "code/accounting35/src/SalesManager.java",
+    "code/accounting35/src/StateConstants.java",
+    "code/accounting35/src/WageEmployee.java",
+    "code/anonym_classes/src/Main.java",
+    "code/anonym_classes/src/SomeInterface.java",
+    "code/lambda_expressions/src/AnotherExample.java",
+    "code/lambda_expressions/src/Main.java",
+    "code/lambda_expressions/src/NumericInterface.java",
+    "code/lambda_expressions/src/OurParamValue.java",
+    "code/lambda_expressions/src/OurValue.java",
+    "code/lambda_expressions/src/OurTestInterface.java",
+    "code/lambda_expressions/src/StringTestInterface.java",
+    "code/lambda_expressions/src/Summable.java",
+    "code/lambda_expressions/src/SummableGeneral.java"
 
 
        ],
