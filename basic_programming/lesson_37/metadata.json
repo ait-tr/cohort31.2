@@ -3,7 +3,11 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/main37/src/Main.java"
+    "code/homework37/src/Homework.java",
+    "code/homework37/src/HomeworkTest.java",
+    "code/our_iterator/src/ForEachMethod.java",
+    "code/our_iterator/src/Main.java",
+    "code/our_linkedlist/src/Main.java"
   ],
   "video": ""
 }
