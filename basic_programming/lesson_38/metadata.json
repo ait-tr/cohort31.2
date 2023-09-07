@@ -4,7 +4,15 @@
   "homework": "homework.md",
   "code": [
     "code/homework38/src/Homework.java",
-    "code/homework38/src/HomeworkTest.java"
+    "code/homework38/src/HomeworkTest.java",
+    "code/linkedlist_implementation/src/OurLinkedList.java",
+    "code/linkedlist_implementation/src/OurList.java",
+    "code/our_linkedlist38/src/Main.java",
+    "code/test_performance/src/Application.java",
+    "code/test_performance/src/ArrayListOperationsStrategy.java",
+    "code/test_performance/src/LinkedListOperationsStrategy.java",
+    "code/test_performance/src/ListOperationsStrategy.java",
+    "code/test_performance/src/ListPerformanceTester.java"
     ],
   "video": ""
 }
