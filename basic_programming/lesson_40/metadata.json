@@ -1,0 +1,10 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/string_iterator/src/Main.java"
+
+    ],
+  "video": ""
+}
