@@ -3,7 +3,9 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/string_iterator/src/Main.java"
+    "code/equals_hashcode/src/Main.java",
+    "code/equals_hashcode/src/Order.java",
+    "code/set_java/src/Main.java"
 
     ],
   "video": ""
