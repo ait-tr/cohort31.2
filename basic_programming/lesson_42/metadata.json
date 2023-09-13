@@ -3,8 +3,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-
-    "code/our_map/src/Main.java"
+    "code/hashmap_implementation/src/Main.java",
+    "code/hashmap_implementation/src/OurHashMap.java",
+    "code/hashmap_implementation/src/OurHashMapTest.java",
+    "code/hashmap_implementation/src/OurMap.java",
+    "code/our_map_/src/Main.java",
+    "code/our_map_/src/Product.java"
 
     ],
   "video": ""
