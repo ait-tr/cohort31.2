@@ -3,10 +3,18 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/hashmap_implementation/src/Main.java",
-    "code/hashmap_implementation/src/OurHashMap.java",
-    "code/hashmap_implementation/src/OurHashMapTest.java",
-    "code/hashmap_implementation/src/OurMap.java"
+    "code/hashmap_implementation_/src/Main.java",
+    "code/hashmap_implementation_/src/OurHashMap.java",
+    "code/hashmap_implementation_/src/OurHashMapTest.java",
+    "code/hashmap_implementation_/src/OurMap.java",
+    "code/other_maps/src/LinkedHashMapExample.java",
+    "code/other_maps/src/TreeMapExample.java",
+    "code/practice/src/MapExercises.java",
+    "code/practice/src/MapExercisesTest.java",
+    "code/set_implementation/src/Main.java",
+    "code/set_implementation/src/OurHashSet.java",
+    "code/set_implementation/src/OurHashSetTest.java",
+    "code/set_implementation/src/OurSet.java"
 
 
     ],
