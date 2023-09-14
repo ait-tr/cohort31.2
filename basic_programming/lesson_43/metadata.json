@@ -1,0 +1,14 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/hashmap_implementation/src/Main.java",
+    "code/hashmap_implementation/src/OurHashMap.java",
+    "code/hashmap_implementation/src/OurHashMapTest.java",
+    "code/hashmap_implementation/src/OurMap.java"
+
+
+    ],
+  "video": ""
+}
