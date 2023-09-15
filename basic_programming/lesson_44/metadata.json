@@ -3,8 +3,8 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/practice/src/MapExercises.java",
-    "code/practice/src/MapExercisesTest.java"
+    "code/practice44/src/MapExercises.java",
+    "code/practice44/src/MapExercisesTest.java"
 
 
     ],
