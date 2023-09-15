@@ -13,10 +13,10 @@ public class MapExercises {
     ["c", "c", "c"] - c: true
      */
 
-    public Map<String,Boolean> findTrueFalse1(String[] strings){
-        Map<String,Boolean> map = new HashMap<>();
+    public Map<String, Boolean> findTrueFalse1(String[] strings) {
+        Map<String, Boolean> map = new HashMap<>();
 
-        for( String string : strings){
+        for (String string : strings) {
             map.put(string, map.containsKey(string));
 
         }
@@ -25,14 +25,13 @@ public class MapExercises {
     }
 
 
-    public Map<String,Boolean> findTrueFalse2(String[] strings){
-        Map<String,Boolean> map = new HashMap<>();
+    public Map<String, Boolean> findTrueFalse2(String[] strings) {
+        Map<String, Boolean> map = new HashMap<>();
 
-        for( String string : strings){
-           if(map.containsKey(string)){
-               map.put(string,true);
-           }
-           else map.put(string,false);
+        for (String string : strings) {
+            if (map.containsKey(string)) {
+                map.put(string, true);
+            } else map.put(string, false);
 
         }
 
@@ -46,17 +45,18 @@ public class MapExercises {
      */
 
 
-    public int nameToNumberOccurence(List<String> names, String name){
-        Map<String,Integer> nameByNumber = new HashMap<>();
+    public int nameToNumberOccurence(List<String> names, String name) {
+        Map<String, Integer> nameByNumber = new HashMap<>();
 
-        for(String s : names){
-            if(nameByNumber.containsKey(s)){
+        for (String s : names) {
+            if (nameByNumber.containsKey(s)) {
                 nameByNumber.put(s, nameByNumber.get(s) + 1);
             } else {
-                nameByNumber.put(s,1);}
+                nameByNumber.put(s, 1);
+            }
         }
-      //  if(nameByNumber.containsKey(name))
-      //      return nameByNumber.get(name);
+        //  if(nameByNumber.containsKey(name))
+        //      return nameByNumber.get(name);
 
         return nameByNumber.getOrDefault(name, 0);
 
@@ -71,27 +71,27 @@ public class MapExercises {
 
      */
 
-    List<String> findAnagrams( String str, List<String>strings){
+    List<String> findAnagrams(String str, List<String> strings) {
 
-        Map<String,List<String>> anagrams = new HashMap<>();
+        Map<String, List<String>> anagrams = new HashMap<>();
 
-        for(String s : strings){
+        for (String s : strings) {
             String sortedKey = sortAnagram(s);
 
-            if(anagrams.containsKey(sortedKey)){
+            if (anagrams.containsKey(sortedKey)) {
                 List<String> value = anagrams.get(sortedKey);
                 value.add(s);
-                anagrams.put(sortedKey,value);
+                anagrams.put(sortedKey, value);
             } else {
                 List<String> value = new ArrayList<>();
                 value.add(s);
-                anagrams.put(sortedKey,value);
+                anagrams.put(sortedKey, value);
             }
         }
-        return anagrams.getOrDefault(sortAnagram(str),List.of());
+        return anagrams.getOrDefault(sortAnagram(str), List.of());
     }
 
-    private String sortAnagram( String str){
+    private String sortAnagram(String str) {
         char[] chars = str.toCharArray();
         Arrays.sort(chars);
         return new String(chars);
@@ -119,8 +119,6 @@ public class MapExercises {
     Map<
 
      */
-
-
 
 
 }
