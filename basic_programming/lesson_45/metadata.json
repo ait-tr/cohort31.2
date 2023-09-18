@@ -3,8 +3,13 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/practice44/src/MapExercises.java",
-    "code/practice44/src/MapExercisesTest.java"
+    "code/auto45/src/Auto.java",
+    "code/auto45/src/Main.java",
+    "code/auto45/src/MainTest.java",
+    "code/map_merge/src/DominantElement.java",
+    "code/map_merge/src/Main1.java",
+    "code/practice45/src/MapExercises.java",
+    "code/practice45/src/MapExercisesTest.java"
 
 
     ],
