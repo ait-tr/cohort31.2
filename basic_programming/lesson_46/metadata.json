@@ -4,8 +4,11 @@
   "homework": "homework.md",
   "code": [
 
-    "code/practice45/src/MapExercises.java",
-    "code/practice45/src/MapExercisesTest.java"
+    "code/homework46/src/Homework.java",
+    "code/homework46/src/HomeworkTest.java",
+    "code/other_collections/src/Main.java",
+    "code/other_collections/src/PriorityComparator.java",
+    "code/practice46/src/Solution.java"
 
 
     ],
