@@ -3,9 +3,18 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/java_exceptions/src/Main.java",
-    "code/practice47/src/Solution.java",
-    "code/practice47/src/SolutionTest.java"
+    "code/enum_game/src/Main.java",
+    "code/enums/src/Directions.java",
+    "code/enums/src/Main.java",
+    "code/java_exceptions48/src/Demo.java",
+    "code/java_exceptions48/src/Main.java",
+    "code/java_exceptions48/src/Main1.java",
+    "code/java_exceptions48/src/NonIntegerException.java",
+    "code/java_exceptions48/src/OurException.java",
+    "code/java_exceptions48/src/OurThrows.java",
+    "code/main48/src/Homework.java"
+
+
   ],
   "video": ""
 }
