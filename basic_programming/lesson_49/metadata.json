@@ -3,8 +3,8 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/enum_game49/src/DazOfWeek.java",
-    "code/enum_game49/src/DazOfWeekResolver.java",
+    "code/enum_game49/src/DayOfWeek.java",
+    "code/enum_game49/src/DayOfWeekResolver.java",
     "code/enum_game49/src/Main.java",
     "code/practice49/src/Solution.java",
     "code/test_exception/src/Homework.java",
