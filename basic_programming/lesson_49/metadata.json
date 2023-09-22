@@ -3,7 +3,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/enum_game/src/Main.java"
+    "code/enum_game49/src/DazOfWeek.java",
+    "code/enum_game49/src/DazOfWeekResolver.java",
+    "code/enum_game49/src/Main.java",
+    "code/practice49/src/Solution.java",
+    "code/test_exception/src/Homework.java",
+    "code/test_exception/src/HomeworkTest.java"
   ],
   "video": ""
 }
