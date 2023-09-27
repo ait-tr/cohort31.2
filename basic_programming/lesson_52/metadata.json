@@ -3,10 +3,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
+    "code/byte_streams/src/Employee.java",
+    "code/byte_streams/src/Main.java",
+    "code/byte_streams/src/Main1.java",
+    "code/byte_streams/src/Main1.java",
     "code/homework52/src/Solution.java",
-    "code/io_streams/src/Main.java"
-
-
+    "code/stream_closing/src/Main.java"
   ],
   "video": ""
 }
