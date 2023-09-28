@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/buffered_reader_writer/src/Main.java",
+    "code/char_streams/src/Main.java",
+    "code/char_streams/src/OurPrintWriterClass.java",
+    "code/main53/src/Main.java"
+
+  ],
+  "video": ""
+}
