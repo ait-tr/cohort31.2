@@ -3,7 +3,11 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/main55/src/Main.java"
+    "code/object_serialization/src/Employee.java",
+    "code/object_serialization/src/Main.java",
+    "code/practice55/src/Main.java",
+    "code/practice55/src/MainTest.java",
+    "code/practice55/src/Person.java"
 
   ],
   "video": ""
