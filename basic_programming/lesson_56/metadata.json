@@ -3,7 +3,22 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/object_serialization/src/Main.java"
+    "code/io_serializable/src/Main.java",
+    "code/io_serializable/src/Student.java",
+    "code/lambdas/src/Eatable.java",
+    "code/lambdas/src/Flyable.java",
+    "code/lambdas/src/IsMoreThan.java",
+    "code/lambdas/src/Main.java",
+    "code/lambdas/src/Operationable.java",
+    "code/lambdas/src/Product.java",
+    "code/lambdas/src/Summable.java",
+    "code/lambdas/src/Walkable.java",
+    "code/our__interfaces/src/Checkable.java",
+    "code/our__interfaces/src/Concatable.java",
+    "code/our__interfaces/src/Main.java",
+    "code/our__interfaces/src/Printable.java",
+    "code/our__interfaces/src/Producable.java",
+    "code/our__interfaces/src/Transformable.java"
 
   ],
   "video": ""
