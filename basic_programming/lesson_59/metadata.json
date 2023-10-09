@@ -1,0 +1,17 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+
+    "code/practice58/src/Transformer.java",
+    "code/practice58/src/Transformer1.java",
+    "code/practice58/src/TransformerTest.java",
+    "code/practice58/src/WordsTransformer.java",
+    "code/practice58/src/WordsTransformerLowerCase.java",
+    "code/practice58/src/WordsTransformerUpperCase.java",
+    "code/practice58/src/WordTransformerStar.java"
+
+  ],
+  "video": ""
+}
