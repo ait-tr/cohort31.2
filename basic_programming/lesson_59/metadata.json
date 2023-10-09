@@ -3,14 +3,19 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-
-    "code/practice58/src/Transformer.java",
-    "code/practice58/src/Transformer1.java",
-    "code/practice58/src/TransformerTest.java",
-    "code/practice58/src/WordsTransformer.java",
-    "code/practice58/src/WordsTransformerLowerCase.java",
-    "code/practice58/src/WordsTransformerUpperCase.java",
-    "code/practice58/src/WordTransformerStar.java"
+    "code/homework59/src/ToLowerCaseChecker.java",
+    "code/homework59/src/ToUpperCaseChecker.java",
+    "code/homework59/src/Transformer1.java",
+    "code/homework59/src/Transformer1Test.java",
+    "code/homework59/src/Transformer2.java",
+    "code/homework59/src/WordsChecker.java",
+    "code/homework59/src/WordsTransformer.java",
+    "code/homework59/src/WordsTransformerLowerCase.java",
+    "code/homework59/src/WordsTransformerUpperCase.java",
+    "code/homework59/src/WordTransformerStar.java",
+    "code/our_optional/src/Main.java",
+    "code/streamAPI/src/Car.java",
+    "code/streamAPI/src/Main.java"
 
   ],
   "video": ""
