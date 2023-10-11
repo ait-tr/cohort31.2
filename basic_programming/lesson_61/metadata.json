@@ -3,11 +3,17 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/homework60/src/Address.java",
-    "code/homework60/src/Homework.java",
-    "code/homework60/src/Person.java",
-    "code/our_streams/src/Car.java",
-    "code/our_streams/src/Main.java"
+    "code/custom_collector/src/Box.java",
+    "code/custom_collector/src/Employee.java",
+    "code/custom_collector/src/Main.java",
+    "code/homework61/src/Address.java",
+    "code/homework61/src/Homework.java",
+    "code/homework61/src/Person.java",
+    "code/more_collectors/src/Main.java",
+    "code/practice61/src/BankAccount.java",
+    "code/practice61/src/Main.java",
+    "code/practice61/src/Person1.java"
+
 
   ],
   "video": ""
