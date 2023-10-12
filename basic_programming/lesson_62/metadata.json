@@ -3,14 +3,10 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-
-    "code/homework62/src/Homework.java",
-    "code/homework62/src/Person.java",
+    "code/datetime_api/src/Main.java",
     "code/practice62/src/BankAccount.java",
-    "code/practice62/src/Main.java"
-
-
-
+    "code/practice62/src/Main.java",
+    "code/practice62/src/Person1.java"
   ],
   "video": ""
 }
