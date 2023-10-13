@@ -3,7 +3,11 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/datetime_api/src/Main.java"
+    "code/main63/src/Homework.java",
+    "code/main63/src/Main.java",
+    "code/practice63/src/BankAccount.java",
+    "code/practice63/src/Person.java",
+    "code/practice63/src/Practice.java"
 
   ],
   "video": ""
