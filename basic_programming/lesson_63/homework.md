@@ -1,5 +1,5 @@
  # Task1  
-Пусть есть класс BankAccount  с полем  String IBAN   и класс Person c  полями name и List<BankAccount>.
+Пусть есть класс BankAccount  с полем  String IBAN   и класс Person c  полями name и List< BankAccount >.
 Нужно написать метод, который вернет список IBANs  с числами замененными звездочками после 3 третьего символа
 (см. код занятия, practice)  
 
