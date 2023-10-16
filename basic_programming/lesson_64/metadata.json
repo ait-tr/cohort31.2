@@ -3,8 +3,13 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/main64/src/Homework.java",
-    "code/main64/src/Main.java"
+    "code/multidim_arrays/src/Bus.java",
+    "code/multidim_arrays/src/Main.java",
+    "code/practice64/src/BankAccount.java",
+    "code/practice64/src/Person.java",
+    "code/practice64/src/Person1.java",
+    "code/practice64/src/Practice.java",
+    "code/practice_2Dim/src/Main.java"
 
   ],
   "video": ""
