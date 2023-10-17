@@ -3,7 +3,11 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/practice_2Dim/src/Main.java"
+   "code/multithreading/src/Main.java",
+   "code/multithreading/src/MultiDemo.java",
+   "code/multithreading/src/OurRunnable.java",
+   "code/multithreading/src/OurThread.java",
+   "code/practice__2Dim/src/Main.java"
   ],
   "video": ""
 }
