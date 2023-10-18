@@ -1,0 +1,24 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+  "code/atomic_integer/src/Counter.java",
+  "code/atomic_integer/src/OurAtomicInteger.java",
+  "code/daemon_threads/src/DaemonThreadsExample.java",
+  "code/daemon_threads/src/Main.java",
+  "code/homework66/src/CharThread.java",
+  "code/homework66/src/Homework.java",
+  "code/practice66/src/AbstractClerk.java",
+  "code/practice66/src/LazyInspiredClerk.java",
+  "code/practice66/src/Main.java",
+  "code/practice66/src/RegularClark.java",
+  "code/sum_integers/src/Demo.java",
+  "code/sum_integers/src/SumIntegers.java",
+  "code/sum_integers/src/SumIntegers2.java",
+  "code/synchronization/src/CounterCommon.java",
+  "code/synchronization/src/Main.java",
+  "code/synchronization/src/ThreadCount.java"
+  ],
+  "video": ""
+}
