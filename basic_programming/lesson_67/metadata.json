@@ -3,10 +3,15 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-  "code/practice66/src/AbstractClerk.java",
-  "code/practice66/src/LazyInspiredClerk.java",
-  "code/practice66/src/Main.java",
-  "code/practice66/src/RegularClark.java"
+  "code/deadlock/src/Person.java",
+  "code/practice67/src/AbstractClerk.java",
+  "code/practice67/src/LazyInspiredClerk.java",
+  "code/practice67/src/Main.java",
+  "code/practice67/src/RegularClark.java",
+  "code/traffic_light/src/Demo.java",
+  "code/traffic_light/src/TrafficLight.java",
+  "code/traffic_light/src/TrafficLightColour.java",
+  "code/wait_notify/src/Main.java"
   ],
   "video": ""
 }
