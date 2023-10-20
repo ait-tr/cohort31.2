@@ -3,7 +3,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-  "code/wait_notify/src/Main.java"
+  "code/deadlock68/src/Person.java",
+  "code/philosophers/src/Main.java",
+  "code/philosophers/src/Philosopher.java",
+  "code/tarakans/src/Main.java",
+  "code/tarakans/src/Score.java",
+  "code/tarakans/src/Tarakan.java"
   ],
   "video": ""
 }
