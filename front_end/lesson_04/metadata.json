@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/03_CSS_Position_25_10_2023/index.html",
+    "code/03_CSS_Position_25_10_2023/style.css",
+    "code/04_Form_26_10_2023/index.html",
+    "code/04_Form_26_10_2023/style.css"
+  ],
+  "video": "",
+  "etc": ""
+}
