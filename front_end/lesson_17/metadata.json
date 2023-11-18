@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/17_react_17_11_2023/src/components/ClassComponent.js",
+    "code/17_react_17_11_2023/src/components/Counter.js",
+    "code/17_react_17_11_2023/src/components/FunctionalComponent.js",
+    "code/17_react_17_11_2023/src/App.js"
+  ],
+  "video": "",
+  "etc": ""
+}
