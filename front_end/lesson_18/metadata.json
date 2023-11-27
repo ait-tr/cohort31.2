@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/18_react_ts_27_11_2023/src/components/Counter.tsx",
+    "code/18_react_ts_27_11_2023/src/components/TodoList.tsx",
+    "code/18_react_ts_27_11_2023/src/theory.ts",
+    "code/18_react_ts_27_11_2023/src/App.tsx"
+  ],
+  "video": "",
+  "etc": ""
+}
