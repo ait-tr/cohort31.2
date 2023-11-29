@@ -1,0 +1,15 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/19_props_hooks_29_11_2023/src/components/Counter.tsx",
+    "code/19_props_hooks_29_11_2023/src/components/JsonTodo.tsx",
+    "code/19_props_hooks_29_11_2023/src/components/Todo.tsx",
+    "code/19_props_hooks_29_11_2023/src/components/TodoList.tsx",
+    "code/19_props_hooks_29_11_2023/src/theory.ts",
+    "code/19_props_hooks_29_11_2023/src/App.tsx"
+  ],
+  "video": "",
+  "etc": ""
+}
