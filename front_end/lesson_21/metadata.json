@@ -1,0 +1,26 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/20_react_router_dom_30_11_2023/src/components/Comment.tsx",
+    "code/20_react_router_dom_30_11_2023/src/components/Comments.tsx",
+    "code/20_react_router_dom_30_11_2023/src/components/Layout.tsx",
+    "code/20_react_router_dom_30_11_2023/src/components/Todo.tsx",
+    "code/20_react_router_dom_30_11_2023/src/components/Todos.tsx",
+    "code/20_react_router_dom_30_11_2023/src/components/User.tsx",
+    "code/20_react_router_dom_30_11_2023/src/components/Users.tsx",
+    "code/20_react_router_dom_30_11_2023/src/components/Post.tsx",
+    "code/20_react_router_dom_30_11_2023/src/components/Posts.tsx",
+    "code/20_react_router_dom_30_11_2023/src/App.tsx",
+    "code/20_react_router_dom_30_11_2023/src/components/Footer.tsx",
+    "code/20_react_router_dom_30_11_2023/src/components/Friend.tsx",
+    "code/20_react_router_dom_30_11_2023/src/components/Header.tsx",
+    "code/20_react_router_dom_30_11_2023/src/components/Main.tsx",
+    "code/20_react_router_dom_30_11_2023/src/App.tsx",
+    "code/20_react_router_dom_30_11_2023/src/App.css",
+    "code/20_react_router_dom_30_11_2023/src/index.css"
+  ],
+  "video": "",
+  "etc": ""
+}
