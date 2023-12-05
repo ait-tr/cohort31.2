@@ -1,0 +1,18 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/23_react_intro_05_12_2023/src/components/Counter.tsx",
+    "code/23_react_intro_05_12_2023/src/redux/counterActions.ts",
+    "code/23_react_intro_05_12_2023/src/redux/counterReducer.ts",
+    "code/23_react_intro_05_12_2023/src/redux/counterState.ts",
+    "code/23_react_intro_05_12_2023/src/redux/store.ts",
+    "code/23_react_intro_05_12_2023/src/App.tsx",
+    "code/23_react_intro_05_12_2023/src/index.tsx",
+    "code/23_react_intro_05_12_2023/src/App.css",
+    "code/23_react_intro_05_12_2023/src/index.css"
+  ],
+  "video": "",
+  "etc": ""
+}
