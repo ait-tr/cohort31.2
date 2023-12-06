@@ -1,0 +1,25 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/24_redux_practice_06_12_2023/src/components/Counter.tsx",
+    "code/24_redux_practice_06_12_2023/src/components/Sandwich.tsx",
+    "code/24_redux_practice_06_12_2023/src/redux/book/bookActions.ts",
+    "code/24_redux_practice_06_12_2023/src/redux/book/bookReducer.ts",
+    "code/24_redux_practice_06_12_2023/src/redux/book/bookState.ts",
+    "code/24_redux_practice_06_12_2023/src/redux/counter/counterActions.ts",
+    "code/24_redux_practice_06_12_2023/src/redux/counter/counterReducer.ts",
+    "code/24_redux_practice_06_12_2023/src/redux/counter/counterState.ts",
+    "code/24_redux_practice_06_12_2023/src/redux/sandwich/sandwichActions.ts",
+    "code/24_redux_practice_06_12_2023/src/redux/sandwich/sandwichReducer.ts",
+    "code/24_redux_practice_06_12_2023/src/redux/sandwich/sandwichState.ts",
+    "code/24_redux_practice_06_12_2023/src/redux/store.ts",
+    "code/24_redux_practice_06_12_2023/src/App.tsx",
+    "code/24_redux_practice_06_12_2023/src/index.tsx",
+    "code/24_redux_practice_06_12_2023/src/App.css",
+    "code/24_redux_practice_06_12_2023/src/index.css"
+  ],
+  "video": "",
+  "etc": ""
+}
