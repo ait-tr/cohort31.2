@@ -1,0 +1,17 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/26_tic_tac_toe_11_12_2023/src/components/Board.tsx",
+    "code/26_tic_tac_toe_11_12_2023/src/components/Square.tsx",
+    "code/26_tic_tac_toe_11_12_2023/src/redux/store.ts",
+    "code/26_tic_tac_toe_11_12_2023/src/redux/gameSlice.ts",
+    "code/26_tic_tac_toe_11_12_2023/src/App.tsx",
+    "code/26_tic_tac_toe_11_12_2023/src/index.tsx",
+    "code/26_tic_tac_toe_11_12_2023/src/App.css",
+    "code/26_tic_tac_toe_11_12_2023/src/index.css"
+  ],
+  "video": "",
+  "etc": ""
+}
