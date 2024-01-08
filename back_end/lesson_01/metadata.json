@@ -1,0 +1,15 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/app/controllers/UserController.java",
+    "code/app/domain/User.java",
+    "code/app/repositories/CrudRepository.java",
+    "code/app/repositories/UserRepository.java",
+    "code/app/repositories/UserRepositoryMap.java",
+    "code/app/services/UserService.java",
+    "code/client/Main.java"
+  ],
+  "video": ""
+}
