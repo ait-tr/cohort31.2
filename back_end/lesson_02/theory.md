@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/ait-tr/cohort31.2/main/back_end/lesson_02/resources/2._Unit_testing._JUnit._Mockito_tests.pptm
