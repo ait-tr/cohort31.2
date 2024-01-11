@@ -8,6 +8,7 @@ import app.staff.specialists.production.MachineOperator;
 import app.staff.specialists.production.Storekeeper;
 import app.staff.specialists.sales.Merchandiser;
 import app.staff.specialists.sales.SalesManager;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -43,8 +44,14 @@ public class Application {
 //        director.manageCompany();
 
         // Версия кода со Спрингом, сконфигурированным при помощи xml
-        AbstractApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
-//        Director director = (Director) context.getBean("dir");
+//        AbstractApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+////        Director director = (Director) context.getBean("dir");
+//        Director director = context.getBean(Director.class);
+//        director.manageCompany();
+
+        // Версия кода со Спрингом, сконфигурированным при помощи
+        // специального класса конфигурации
+        AbstractApplicationContext context = new AnnotationConfigApplicationContext("app.config");
         Director director = context.getBean(Director.class);
         director.manageCompany();
     }

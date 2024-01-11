@@ -12,6 +12,7 @@
     "code/src/app/staff/specialists/sales/Merchandiser.java",
     "code/src/app/staff/specialists/sales/SalesManager.java",
     "code/src/app/staff/specialists/Secretary.java",
+    "code/src/app/config/AppConfig.java",
     "code/src/beans.xml"
   ],
   "video": ""
