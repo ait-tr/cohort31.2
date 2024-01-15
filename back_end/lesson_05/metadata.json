@@ -1,0 +1,15 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/g_31_2_rest/src/main/java/de/aittr/g_31_2_rest/domain/Cat.java",
+    "code/g_31_2_rest/src/main/java/de/aittr/g_31_2_rest/repositories/CrudRepository.java",
+    "code/g_31_2_rest/src/main/java/de/aittr/g_31_2_rest/repositories/CatRepository.java",
+    "code/g_31_2_rest/src/main/java/de/aittr/g_31_2_rest/services/CatService.java",
+    "code/g_31_2_rest/src/main/java/de/aittr/g_31_2_rest/controllers/CatController.java",
+    "code/g_31_2_rest/src/main/java/de/aittr/g_31_2_rest/G312RestApplication.java",
+    "code/g_31_2_rest/pom.xml"
+  ],
+  "video": ""
+}
