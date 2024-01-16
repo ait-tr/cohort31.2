@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/ait-tr/cohort31.2/main/back_end/lesson_06/resources/6_Java_JDBC_API_работа_с_базами_данных.pdf
