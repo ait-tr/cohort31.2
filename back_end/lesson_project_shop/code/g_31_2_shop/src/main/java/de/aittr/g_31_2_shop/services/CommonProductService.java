@@ -23,7 +23,7 @@ public class CommonProductService implements ProductService {
 
     @Override
     public List<Product> getAllActiveProducts() {
-        return null;
+        return repository.getAll();
     }
 
     @Override

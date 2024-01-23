@@ -6,6 +6,8 @@ public interface Cart {
 
     int getId();
 
+    void setId(int id);
+
     List<Product> getProducts();
 
     void addProduct(Product product);

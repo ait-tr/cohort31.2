@@ -24,6 +24,26 @@ public class CommonCustomer implements Customer {
     }
 
     @Override
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    @Override
+    public void setActive(boolean active) {
+        isActive = active;
+    }
+
+    @Override
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public void setCart(Cart cart) {
+        this.cart = cart;
+    }
+
+    @Override
     public int getId() {
         return id;
     }
