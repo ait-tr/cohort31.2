@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/ait-tr/cohort31.2/main/back_end/lesson_11/resources/11_Spring_Boot_JPA_and_databases.pptm

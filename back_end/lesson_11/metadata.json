@@ -1,0 +1,15 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "back_end/lesson_11/code/g_31_2_books/src/main/java/de/aittr/g_31_2_books/domain/Book.java",
+    "back_end/lesson_11/code/g_31_2_books/src/main/java/de/aittr/g_31_2_books/repositories/BookRepository.java",
+    "back_end/lesson_11/code/g_31_2_books/src/main/java/de/aittr/g_31_2_books/services/BookService.java",
+    "back_end/lesson_11/code/g_31_2_books/src/main/java/de/aittr/g_31_2_books/controllers/BookController.java",
+    "back_end/lesson_11/code/g_31_2_books/src/main/java/de/aittr/g_31_2_books/G312BooksApplication.java",
+    "back_end/lesson_11/code/g_31_2_books/src/main/resources/application.properties",
+    "back_end/lesson_11/code/g_31_2_books/pom.xml"
+  ],
+  "video": ""
+}
