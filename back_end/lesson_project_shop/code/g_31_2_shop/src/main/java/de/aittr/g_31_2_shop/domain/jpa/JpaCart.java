@@ -24,16 +24,16 @@ public class JpaCart implements Cart {
             joinColumns = @JoinColumn(name = "cart_id"),
             inverseJoinColumns = @JoinColumn(name = "product_id")
     )
-    private List<Product> products = new ArrayList<>();
+    private List<JpaProduct> products = new ArrayList<>();
 
     @OneToOne
     @JoinColumn(name = "customer_id")
-    private Customer customer;
+    private JpaCustomer customer;
 
     public JpaCart() {
     }
 
-    public JpaCart(int id, List<Product> products) {
+    public JpaCart(int id, List<JpaProduct> products) {
         this.id = id;
         this.products = products;
     }
@@ -50,35 +50,50 @@ public class JpaCart implements Cart {
 
     @Override
     public List<Product> getProducts() {
-        return products;
+        // TODO посмотреть, как будет на практике, потом переделать
+        return new ArrayList<>(products);
     }
 
     @Override
     public void addProduct(Product product) {
-
+        try {
+            products.add((JpaProduct) product);
+        } catch (Exception e) {
+            throw new IllegalArgumentException("В корзину JpaCart помещён несовместимый тип продукта!");
+        }
     }
 
     @Override
     public void deleteProductById(int productId) {
-
+        // TODO проверить работу на практике и при необходимости переделать
+        products.removeIf(p -> p.getId() == productId);
     }
 
     @Override
     public void clear() {
-
+        products.clear();
     }
 
     @Override
     public double getTotalPrice() {
-        return 0;
+        return products
+                .stream()
+                .filter(p -> p.isActive())
+                .mapToDouble(p -> p.getPrice())// [Apple:90, Banana:120, Orange:200] -> [90, 120, 200]
+                .sum();
     }
 
     @Override
     public double getAveragePrice() {
-        return 0;
+        return products
+                .stream()
+                .filter(p -> p.isActive())
+                .mapToDouble(p -> p.getPrice())// [Apple:90, Banana:120, Orange:200] -> [90, 120, 200]
+                .average()
+                .orElse(0);
     }
 
-    public void setProducts(List<Product> products) {
+    public void setProducts(List<JpaProduct> products) {
         this.products = products;
     }
 
@@ -86,7 +101,7 @@ public class JpaCart implements Cart {
         return customer;
     }
 
-    public void setCustomer(Customer customer) {
+    public void setCustomer(JpaCustomer customer) {
         this.customer = customer;
     }
 

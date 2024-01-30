@@ -22,12 +22,12 @@ public class JpaCustomer implements Customer {
     private String name;
 
     @OneToOne(mappedBy = "customer")
-    private Cart cart;
+    private JpaCart cart;
 
     public JpaCustomer() {
     }
 
-    public JpaCustomer(int id, boolean isActive, String name, Cart cart) {
+    public JpaCustomer(int id, boolean isActive, String name, JpaCart cart) {
         this.id = id;
         this.isActive = isActive;
         this.name = name;
@@ -71,7 +71,11 @@ public class JpaCustomer implements Customer {
 
     @Override
     public void setCart(Cart cart) {
-        this.cart = cart;
+        try {
+            this.cart = (JpaCart) cart;
+        } catch (Exception e) {
+            throw new IllegalArgumentException("В сеттер JpaCustomer передан несовместимый тип корзины!");
+        }
     }
 
     @Override
