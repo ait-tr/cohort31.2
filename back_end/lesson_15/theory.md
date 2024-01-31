@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/ait-tr/cohort31.2/main/back_end/lesson_15/resources/15_Spring_Boot_validation_error_handling.pdf
