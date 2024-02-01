@@ -39,6 +39,7 @@
     "code/g_31_2_shop/src/main/java/de/aittr/g_31_2_shop/exception_handling/exceptions/FourthTestException.java",
     "code/g_31_2_shop/src/main/java/de/aittr/g_31_2_shop/exception_handling/CommonAdvice.java",
     "code/g_31_2_shop/src/main/java/de/aittr/g_31_2_shop/exception_handling/Response.java",
+    "code/g_31_2_shop/src/main/java/de/aittr/g_31_2_shop/logging/AspectLogging.java",
     "code/g_31_2_shop/src/main/java/de/aittr/g_31_2_shop/G312ShopApplication.java",
     "code/g_31_2_shop/src/main/resources/application.properties",
     "code/g_31_2_shop/pom.xml"
