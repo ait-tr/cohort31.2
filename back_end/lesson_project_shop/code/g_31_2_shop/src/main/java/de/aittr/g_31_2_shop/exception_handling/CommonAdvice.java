@@ -1,6 +1,7 @@
 package de.aittr.g_31_2_shop.exception_handling;
 
 import de.aittr.g_31_2_shop.exception_handling.exceptions.FourthTestException;
+import de.aittr.g_31_2_shop.exception_handling.exceptions.ProductValidationException;
 import de.aittr.g_31_2_shop.exception_handling.exceptions.ThirdTestException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,6 +25,14 @@ public class CommonAdvice {
     public ResponseEntity<Response> handleException(FourthTestException e) {
         logger.error(String.format("Error: %s", e.getMessage()));
         Response response = new Response(e.getMessage());
+        return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
+    }
+
+    @ExceptionHandler(ProductValidationException.class)
+    public ResponseEntity<ValidationResponse> handleException(ProductValidationException e) {
+        e.printStackTrace();
+        ValidationResponse response = new ValidationResponse(e.getMessage(),
+                e.getCause().getMessage());
         return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
     }
 }
