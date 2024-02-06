@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/ait-tr/cohort31.2/main/back_end/lesson_18/resources/18_Spring_Boot_scheduled_jobs.pdf
