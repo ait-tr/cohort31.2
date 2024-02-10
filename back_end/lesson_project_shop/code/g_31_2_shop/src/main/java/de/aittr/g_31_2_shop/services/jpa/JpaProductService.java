@@ -50,8 +50,8 @@ public class JpaProductService implements ProductService {
      */
     @Override
     public List<ProductDto> getAllActiveProducts() {
-        Task task = new Task("Method getAllActiveProducts called");
-        ScheduleExecutor.scheduleAndExecuteTask(task);
+//        Task task = new Task("Method getAllActiveProducts called");
+//        ScheduleExecutor.scheduleAndExecuteTask(task);
         // здесь будет JoinPoint, сюда будет внедряться вспомогательный код
 
         List<ProductDto> products = repository.findAll()
@@ -154,5 +154,18 @@ public class JpaProductService implements ProductService {
                 .mapToDouble(p -> p.getPrice())
                 .average()
                 .orElse(0);
+    }
+
+    /*
+    Домашнее задание 18
+    2. Реализовать вывод в консоль последнего добавленного в БД товара.
+    Вывод должен производиться в 15 и 45 секунд каждой минуты.
+    Задача должна быть сохранена в БД.
+    Вывод в консоль должен быть осуществлён через логирование поля description созданной задачи.
+    Пример значения поля description - "Последний добавленный в БД продукт - Банан".
+     */
+
+    public JpaProduct getLastProduct() {
+        return repository.getLastProduct();
     }
 }
