@@ -22,4 +22,20 @@ public class ParrotService {
     public Parrot getById(int id) {
         return repository.getById(id);
     }
+
+    /*
+    Домашнее задание 7
+    1. Реализовать сохранение попугаев в БД (входящий ИД не должен учитываться)
+     */
+    public Parrot save(Parrot parrot) {
+        return repository.save(parrot);
+    }
+
+    /*
+    Домашнее задание 7
+    2. Реализовать удаление попугаев из БД по ИД
+     */
+    public void deleteById(int id) {
+        repository.deleteById(id);
+    }
 }

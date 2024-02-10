@@ -28,12 +28,20 @@ public class ParrotController {
         return service.getById(id);
     }
 
+    /*
+    Домашнее задание 7
+    1. Реализовать сохранение попугаев в БД (входящий ИД не должен учитываться)
+     */
     // localhost:8080/parrots
     @PostMapping
     public Parrot save(@RequestBody Parrot parrot) {
         return service.save(parrot);
     }
 
+    /*
+    Домашнее задание 7
+    2. Реализовать удаление попугаев из БД по ИД
+    */
     // localhost:8080/parrots/3
     @DeleteMapping("/{id}")
     public void deleteById(@PathVariable int id) {

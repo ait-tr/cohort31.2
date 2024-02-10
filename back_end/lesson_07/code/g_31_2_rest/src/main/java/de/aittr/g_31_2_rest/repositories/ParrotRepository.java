@@ -9,6 +9,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 @Repository
 public class ParrotRepository implements CrudRepository<Parrot> {
@@ -27,6 +28,7 @@ public class ParrotRepository implements CrudRepository<Parrot> {
     private Connection getConnection() {
         try {
             Class.forName(DB_DRIVER_PATH);
+            // http://google.com/example?search=cats&color=black
             // jdbc:mysql://localhost:3306/31_2_parrots?user=root&password=77777
             String dbUrl = String.format("%s%s?user=%s&password=%s",
                     DB_ADDRESS, DB_NAME, DB_USERNAME, DB_PASSWORD);
@@ -36,14 +38,27 @@ public class ParrotRepository implements CrudRepository<Parrot> {
         }
     }
 
+    /*
+    Домашнее задание 7
+    1. Реализовать сохранение попугаев в БД (входящий ИД не должен учитываться)
+     */
     @Override
-    public Parrot save(Parrot obj) {
+    public Parrot save(Parrot parrot) {
         try (Connection connection = getConnection()) {
-            // TODO
+
+            String query = String.format(Locale.US, "INSERT INTO `parrot` " +
+                    "(`color`, `weight`) " +
+                    "VALUES ('%s', '%.2f');", parrot.getColor(), parrot.getWeight());
+            Statement statement = connection.createStatement();
+            statement.execute(query, Statement.RETURN_GENERATED_KEYS);
+
+            ResultSet resultSet = statement.getGeneratedKeys();
+            resultSet.next();
+            parrot.setId(resultSet.getInt(1));
+            return parrot;
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
-        return null;
     }
 
     @Override
@@ -98,10 +113,16 @@ public class ParrotRepository implements CrudRepository<Parrot> {
         }
     }
 
+    /*
+    Домашнее задание 7
+    2. Реализовать удаление попугаев из БД по ИД
+     */
     @Override
     public void deleteById(int id) {
         try (Connection connection = getConnection()) {
-            // TODO
+
+            String query = String.format("DELETE FROM `parrot` WHERE (`id` = '%d');", id);
+            connection.createStatement().execute(query);
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
