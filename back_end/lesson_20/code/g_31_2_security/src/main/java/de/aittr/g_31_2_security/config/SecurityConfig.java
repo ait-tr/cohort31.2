@@ -31,6 +31,7 @@ public class SecurityConfig {
                                 .requestMatchers(HttpMethod.GET, "/car/by_id/{id}").hasRole("USER")
                                 .requestMatchers(HttpMethod.POST, "/car/save").hasRole("ADMIN")
                                 .requestMatchers(HttpMethod.POST, "/user/register").permitAll()
+                                .requestMatchers(HttpMethod.PUT, "/user/set_admin/{username}").hasRole("ADMIN")
                                 .anyRequest().authenticated()
                 ).httpBasic(Customizer.withDefaults());
         return http.build();

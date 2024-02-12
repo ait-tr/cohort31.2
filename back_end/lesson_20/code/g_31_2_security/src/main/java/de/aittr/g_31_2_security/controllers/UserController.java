@@ -2,10 +2,7 @@ package de.aittr.g_31_2_security.controllers;
 
 import de.aittr.g_31_2_security.domain.User;
 import de.aittr.g_31_2_security.services.UserService;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/user")
@@ -20,5 +17,10 @@ public class UserController {
     @PostMapping("/register")
     public User register(@RequestBody User user) {
         return service.register(user);
+    }
+
+    @PutMapping("/set_admin/{username}")
+    public void setRoleAdmin(@PathVariable String username) {
+        service.setRoleAdmin(username);
     }
 }

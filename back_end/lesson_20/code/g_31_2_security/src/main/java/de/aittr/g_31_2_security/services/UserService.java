@@ -33,7 +33,6 @@ public class UserService implements UserDetailsService {
         return user;
     }
 
-    @Transactional
     public User register(User user) {
         User foundUser = repository.findByUsername(user.getUsername());
 
@@ -50,5 +49,11 @@ public class UserService implements UserDetailsService {
         user.setPassword(encodedPassword);
 
         return repository.save(user);
+    }
+
+    @Transactional
+    public void setRoleAdmin(String username) {
+        User user = (User) loadUserByUsername(username);
+        user.addRole(new Role(2, "ROLE_ADMIN"));
     }
 }
