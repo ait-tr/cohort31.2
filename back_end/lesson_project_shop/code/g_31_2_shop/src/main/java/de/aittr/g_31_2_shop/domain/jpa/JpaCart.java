@@ -61,8 +61,10 @@ public class JpaCart implements Cart {
 
     @Override
     public List<Product> getProducts() {
-        // TODO посмотреть, как будет на практике, потом переделать
-        return new ArrayList<>(products);
+        return new ArrayList<>(products
+                .stream()
+                .filter(p -> p.isActive())
+                .toList());
     }
 
     @Override
