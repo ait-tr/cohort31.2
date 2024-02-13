@@ -1,0 +1,12 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/g_31_2_javadoc/src/main/java/app/Student.java",
+    "code/g_31_2_javadoc/src/main/java/app/StudentService.java",
+    "code/g_31_2_javadoc/src/test/java/app/StudentServiceTest.java",
+    "code/g_31_2_javadoc/pom.xml"
+  ],
+  "video": ""
+}
