@@ -1,0 +1,17 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/g_31_2_mapstruct/src/main/java/de/aittr/g_31_2_mapstruct/domain/User.java",
+    "code/g_31_2_mapstruct/src/main/java/de/aittr/g_31_2_mapstruct/domain/UserDto.java",
+    "code/g_31_2_mapstruct/src/main/java/de/aittr/g_31_2_mapstruct/repositories/UserRepository.java",
+    "code/g_31_2_mapstruct/src/main/java/de/aittr/g_31_2_mapstruct/services/UserService.java",
+    "code/g_31_2_mapstruct/src/main/java/de/aittr/g_31_2_mapstruct/services/mapping/UserMappingService.java",
+    "code/g_31_2_mapstruct/src/main/java/de/aittr/g_31_2_mapstruct/controllers/UserController.java",
+    "code/g_31_2_mapstruct/src/main/java/de/aittr/g_31_2_mapstruct/G312MapstructApplication.java",
+    "code/g_31_2_mapstruct/src/main/resources/application.properties",
+    "code/g_31_2_mapstruct/pom.xml"
+  ],
+  "video": ""
+}
