@@ -1,0 +1,14 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/g_31_2_mockito/src/main/java/domain/Product.java",
+    "code/g_31_2_mockito/src/main/java/repositories/ProductRepository.java",
+    "code/g_31_2_mockito/src/main/java/services/MerchService.java",
+    "code/g_31_2_mockito/src/main/java/services/ProductService.java",
+    "code/g_31_2_mockito/src/test/java/services/ProductServiceTest.java",
+    "code/g_31_2_mockito/pom.xml"
+  ],
+  "video": ""
+}
