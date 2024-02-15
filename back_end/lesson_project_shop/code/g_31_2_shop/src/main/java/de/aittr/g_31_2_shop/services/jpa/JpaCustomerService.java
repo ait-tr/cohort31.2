@@ -1,11 +1,13 @@
 package de.aittr.g_31_2_shop.services.jpa;
 
 import de.aittr.g_31_2_shop.domain.dto.CustomerDto;
+import de.aittr.g_31_2_shop.domain.interfaces.Product;
 import de.aittr.g_31_2_shop.domain.jpa.JpaCart;
 import de.aittr.g_31_2_shop.domain.jpa.JpaCustomer;
-import de.aittr.g_31_2_shop.exception_handling.exceptions.CustomerValidationException;
+import de.aittr.g_31_2_shop.exception_handling.exceptions.*;
 import de.aittr.g_31_2_shop.repositories.jpa.JpaCustomerRepository;
 import de.aittr.g_31_2_shop.services.interfaces.CustomerService;
+import de.aittr.g_31_2_shop.services.interfaces.ProductService;
 import de.aittr.g_31_2_shop.services.mapping.CustomerMappingService;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
@@ -17,28 +19,24 @@ public class JpaCustomerService implements CustomerService {
 
     private JpaCustomerRepository repository;
     private CustomerMappingService mappingService;
+    private JpaProductService productService;
 
-    public JpaCustomerService(JpaCustomerRepository repository, CustomerMappingService mappingService) {
+    public JpaCustomerService(JpaCustomerRepository repository, CustomerMappingService mappingService, JpaProductService productService) {
         this.repository = repository;
         this.mappingService = mappingService;
+        this.productService = productService;
     }
 
     @Override
-    @Transactional
     public CustomerDto save(CustomerDto dto) {
         JpaCustomer entity = mappingService.mapDtoToJpaCustomer(dto);
         JpaCart cart = new JpaCart();
         entity.setCart(cart);
         cart.setCustomer(entity);
 
-        try {
-            entity = repository.save(entity);
-        } catch (Exception e) {
-            throw new CustomerValidationException("Incorrect values of customer fields.", e);
-        }
+        entity = repository.save(entity);
 
-        dto = mappingService.mapCustomerEntityToDto(entity);
-        return dto;
+        return mappingService.mapCustomerEntityToDto(entity);
     }
 
     @Override
@@ -97,8 +95,22 @@ public class JpaCustomerService implements CustomerService {
     }
 
     @Override
+    @Transactional
     public void addProductToCart(int customerId, int productId) {
+        Product product = productService.getActiveJpaProductById(productId);
+        JpaCustomer customer = repository.findById(customerId).orElse(null);
 
+        if (customer == null) {
+            throw new CustomerNotFoundException(String.format(
+                    "There is no customer with id [%d] in the database", customerId));
+        }
+
+        if (!customer.isActive()) {
+            throw new InactiveCustomerException(String.format(
+                    "Customer with id [%d] is inactive and adding product can not be done", customerId));
+        }
+
+        customer.getCart().addProduct(product);
     }
 
     @Override

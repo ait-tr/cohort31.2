@@ -138,7 +138,6 @@ public class JpaCart implements Cart {
         return "JpaCart{" +
                 "id=" + id +
                 ", products=" + products +
-                ", customer=" + customer +
                 '}';
     }
 }

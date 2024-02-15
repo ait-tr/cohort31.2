@@ -76,4 +76,16 @@ public class CommonAdvice {
         Response response = new Response(e.getMessage());
         return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
     }
+
+    @ExceptionHandler(CustomerNotFoundException.class)
+    public ResponseEntity<Response> handleException(CustomerNotFoundException e) {
+        Response response = new Response(e.getMessage());
+        return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
+    }
+
+    @ExceptionHandler(InactiveCustomerException.class)
+    public ResponseEntity<Response> handleException(InactiveCustomerException e) {
+        Response response = new Response(e.getMessage());
+        return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
+    }
 }

@@ -46,6 +46,8 @@
     "code/g_31_2_shop/src/main/java/de/aittr/g_31_2_shop/exception_handling/exceptions/IncorrectEntityTypeException.java",
     "code/g_31_2_shop/src/main/java/de/aittr/g_31_2_shop/exception_handling/exceptions/NoActiveProductsFoundException.java",
     "code/g_31_2_shop/src/main/java/de/aittr/g_31_2_shop/exception_handling/exceptions/ProductNotFoundException.java",
+    "code/g_31_2_shop/src/main/java/de/aittr/g_31_2_shop/exception_handling/exceptions/CustomerNotFoundException.java",
+    "code/g_31_2_shop/src/main/java/de/aittr/g_31_2_shop/exception_handling/exceptions/InactiveCustomerException.java",
     "code/g_31_2_shop/src/main/java/de/aittr/g_31_2_shop/exception_handling/CommonAdvice.java",
     "code/g_31_2_shop/src/main/java/de/aittr/g_31_2_shop/exception_handling/Response.java",
     "code/g_31_2_shop/src/main/java/de/aittr/g_31_2_shop/exception_handling/ValidationResponse.java",

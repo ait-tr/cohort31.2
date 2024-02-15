@@ -2,6 +2,7 @@ package de.aittr.g_31_2_shop.controllers;
 
 import de.aittr.g_31_2_shop.domain.dto.CustomerDto;
 import de.aittr.g_31_2_shop.services.interfaces.CustomerService;
+import org.springframework.data.repository.query.Param;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -29,5 +30,10 @@ public class CustomerController {
     @GetMapping("/{id}")
     public CustomerDto getById(@PathVariable int id) {
         return service.getActiveCustomerById(id);
+    }
+
+    @PutMapping("/add_product")
+    public void addProductToCart(@RequestParam int customerId, @RequestParam int productId) {
+        service.addProductToCart(customerId, productId);
     }
 }

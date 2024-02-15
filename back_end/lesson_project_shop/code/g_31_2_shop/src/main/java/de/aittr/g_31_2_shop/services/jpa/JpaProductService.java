@@ -78,6 +78,12 @@ public class JpaProductService implements ProductService {
 //        logger.warn(String.format("Запрошен продукт с идентификатором %d.", id));
 //        logger.error(String.format("Запрошен продукт с идентификатором %d.", id));
 
+        Product product = getActiveJpaProductById(id);
+
+        return mappingService.mapProductEntityToDto(product);
+    }
+
+    public Product getActiveJpaProductById(int id) {
         Product product = repository.findById(id).orElse(null);
 
         if (product == null) {
@@ -90,7 +96,7 @@ public class JpaProductService implements ProductService {
                     "Product with id [%d] is inactive and cannot be retrieved", id));
         }
 
-        return mappingService.mapProductEntityToDto(product);
+        return product;
     }
 
     @Override

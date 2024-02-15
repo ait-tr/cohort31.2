@@ -42,7 +42,7 @@ public class JpaCustomer implements Customer {
     @Email(message = "Некорректные значения email не допускаются")
     private String email;
 
-    @OneToOne(mappedBy = "customer", cascade = CascadeType.ALL)
+    @OneToOne(mappedBy = "customer", cascade = CascadeType.PERSIST)
     private JpaCart cart;
 
     public JpaCustomer() {
