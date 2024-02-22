@@ -1,14 +1,10 @@
-out/
-*.iml
-.DS_Store
-
 .gradle
 build/
 gradle/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-
+### IntelliJ IDEA ###
 *.idea
 *.iws
 *.iml
@@ -19,3 +15,6 @@ gradlew.bat
 gradle
 
 settings.gradle
+
+### Mac OS ###
+.DS_Store
