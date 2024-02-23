@@ -1,0 +1,15 @@
+.gradle
+build/
+setting.gradle
+gradlew
+gradlew/
+*.bat
+
+*.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+*.log
+*.png
