@@ -1,0 +1,15 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/QA31_Phonebook/src/test/java/com/phonebook/tests/User.java",
+    "code/QA31_Phonebook/src/test/java/com/phonebook/tests/Contact.java",
+    "code/QA31_Phonebook/src/test/java/com/phonebook/tests/TestBase.java",
+    "code/QA31_Phonebook/src/test/java/com/phonebook/tests/CreateAccountTests.java",
+    "code/QA31_Phonebook/src/test/java/com/phonebook/tests/LoginTests.java",
+    "code/QA31_Phonebook/src/test/java/com/phonebook/tests/AddContactTests.java",
+    "code/QA31_Phonebook/src/test/java/com/phonebook/tests/DeleteContactTests.java",
+    "code/QA31_Phonebook/src/test/java/com/phonebook/tests/HomePageTests.java"
+  ]
+}
