@@ -12,6 +12,4 @@ _gradle -Pbrowser=edge clean qa_
 
 _gradle clean qa_
 
-[Microsoft Edge WebDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/?form=MA13LH)
-
 [MAC(JAVA_HOME; PATH)](https://docs.google.com/document/d/1D-aJJ1-kR3YajD9OXCOOO2MbCCTUa24GTID9FwcQJS8/edit)
