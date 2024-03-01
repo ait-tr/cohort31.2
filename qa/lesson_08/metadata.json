@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/QA31_Phonebook/src/main/java/com/phonebook/fw/BaseHelper.java",
+    "code/QA31_Phonebook/src/main/java/com/phonebook/models/Contact.java",
+    "code/QA31_Phonebook/src/test/java/com/phonebook/tests/TestBase.java",
+    "code/QA31_Phonebook/src/test/java/com/phonebook/tests/AddContactTests.java",
+    "code/QA31_Phonebook/src/test/resources/logback.xml",
+    "code/QA31_Phonebook/src/test/resources/contact.csv"
+  ]
+}
