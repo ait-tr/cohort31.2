@@ -6,7 +6,7 @@
     "code/QA31_Phonebook/build.gradle",
     "code/QA31_Phonebook/src/test/java/com/phonebook/tests/TestBase.java",
     "code/QA31_Phonebook/src/test/java/com/phonebook/tests/AddContactTests.java",
-    "code/QA31_Phonebook/src/main/java/com/phonebook/DataProviders.java",
+    "code/QA31_Phonebook/src/main/java/com/phonebook/fw/DataProviders.java",
     "code/QA31_Phonebook/src/test/resources/testng.xml",
     "code/QA31_Phonebook/src/test/resources/regression.xml"
   ]
