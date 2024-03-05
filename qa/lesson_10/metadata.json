@@ -1,0 +1,9 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/QA31_Demoqa_POM/pom.xml",
+    "code/QA31_Demoqa_POM/src/main/java/com/demoqa/pages/BasePage.java"
+  ]
+}
