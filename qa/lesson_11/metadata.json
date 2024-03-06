@@ -3,7 +3,6 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/QA31_Demoqa_POM/pom.xml",
     "code/QA31_Demoqa_POM/src/test/java/com/demoqa/tests/TestBase.java",
     "code/QA31_Demoqa_POM/src/main/java/com/demoqa/pages/BasePage.java",
     "code/QA31_Demoqa_POM/src/main/java/com/demoqa/pages/HomePage.java",
