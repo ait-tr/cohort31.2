@@ -1,0 +1,16 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/QA31_Demoqa_POM/src/main/java/com/demoqa/pages/BasePage.java",
+    "code/QA31_Demoqa_POM/src/main/java/com/demoqa/pages/HomePage.java",
+    "code/QA31_Demoqa_POM/src/main/java/com/demoqa/pages/SidePanel.java",
+    "code/QA31_Demoqa_POM/src/test/java/com/demoqa/tests/PracticeFormTests.java",
+    "code/QA31_Demoqa_POM/src/main/java/com/demoqa/pages/PracticeFormPage.java",
+    "code/QA31_Demoqa_POM/src/test/java/com/demoqa/tests/AlertsTests.java",
+    "code/QA31_Demoqa_POM/src/main/java/com/demoqa/pages/AlertsPage.java",
+    "code/QA31_Demoqa_POM/src/test/java/com/demoqa/tests/BrowserWindowsTest.java",
+    "code/QA31_Demoqa_POM/src/main/java/com/demoqa/pages/BrowserWindowsPage.java"
+  ]
+}
