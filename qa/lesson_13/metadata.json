@@ -10,6 +10,6 @@
     "code/QA31_Demoqa_POM/src/main/java/com/demoqa/pages/SelectMenuPage.java",
     "code/QA31_Demoqa_POM/src/test/java/com/demoqa/tests/BrokenLinksTests.java",
     "code/QA31_Demoqa_POM/src/main/java/com/demoqa/pages/BrokenLinksPage.java",
-    "src/test/resources/testng.xml"
+    "code/QA31_Demoqa_POM/src/test/resources/testng.xml"
   ]
 }
