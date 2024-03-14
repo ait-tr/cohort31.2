@@ -8,12 +8,12 @@
     "code/QA31_Phonebook_API/src/main/java/com/phonebook/dto/AllContactsDto.java",
     "code/QA31_Phonebook_API/src/main/java/com/phonebook/dto/ErrorDto.java",
     "code/QA31_Phonebook_API/src/main/java/com/phonebook/dto/MessageDto.java",
-    "code/QA31_Phonebook_API/src/test/java/com/phonebook/RATests/TestBase.java",
-    "code/QA31_Phonebook_API/src/test/java/com/phonebook/RATests/LoginTests.java",
-    "code/QA31_Phonebook_API/src/test/java/com/phonebook/RATests/GetAllContactsTests.java",
-    "code/QA31_Phonebook_API/src/test/java/com/phonebook/RATests/AddContactTests.java",
-    "code/QA31_Phonebook_API/src/test/java/com/phonebook/RATests/DeleteContactByIdTests.java",
-    "code/QA31_Phonebook_API/src/test/java/com/phonebook/RATests/DeleteAllContactsTests.java"
+    "code/QA31_Phonebook_API/src/test/java/com/phonebook/RAtests/TestBase.java",
+    "code/QA31_Phonebook_API/src/test/java/com/phonebook/RAtests/LoginTests.java",
+    "code/QA31_Phonebook_API/src/test/java/com/phonebook/RAtests/GetAllContactsTests.java",
+    "code/QA31_Phonebook_API/src/test/java/com/phonebook/RAtests/AddContactTests.java",
+    "code/QA31_Phonebook_API/src/test/java/com/phonebook/RAtests/DeleteContactByIdTests.java",
+    "code/QA31_Phonebook_API/src/test/java/com/phonebook/RAtests/DeleteAllContactsTests.java"
   ],
   "homework": "homework.md",
   "video": ""
