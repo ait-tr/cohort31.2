@@ -1,0 +1,15 @@
+{
+  "plan": "plan.md",
+  "code": [
+    "code/QA31_FirstMobileProject/build.gradle",
+    "code/QA31_FirstMobileProject/src/main/java/fw/ApplicationManager.java",
+    "code/QA31_FirstMobileProject/src/main/java/fw/BaseHelper.java",
+    "code/QA31_FirstMobileProject/src/main/java/fw/MainScreenHelper.java",
+    "code/QA31_FirstMobileProject/src/main/java/fw/ReminderHelper.java",
+    "code/QA31_FirstMobileProject/src/test/java/tests/TestBase.java",
+    "code/QA31_FirstMobileProject/src/test/java/tests/MainScreenTests.java",
+    "code/QA31_FirstMobileProject/src/test/java/tests/ReminderTests.java"
+  ],
+  "homework": "homework.md",
+  "video": ""
+}
