@@ -7,6 +7,7 @@ import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.ServletRequest;
 import jakarta.servlet.ServletResponse;
+import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
@@ -38,7 +39,19 @@ public class TokenFilter extends GenericFilterBean {
         chain.doFilter(request, response);
     }
 
+    // Метод доработан.
+    // Теперь считываем токен не только из заголовка запроса, но и из куки.
     private String getTokenFromRequest(HttpServletRequest request) {
+        Cookie[] cookies = request.getCookies();
+
+        if (cookies != null) {
+            for (Cookie cookie : cookies) {
+                if ("Access-Token".equals(cookie.getName())) {
+                    return cookie.getValue();
+                }
+            }
+        }
+
         // Bearer kdsjnfmsdhfhsdufyjfsdffds
         String token = request.getHeader("Authorization");
 
