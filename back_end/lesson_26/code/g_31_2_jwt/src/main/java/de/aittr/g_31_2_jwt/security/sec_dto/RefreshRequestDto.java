@@ -1,9 +1,13 @@
 package de.aittr.g_31_2_jwt.security.sec_dto;
 
+import io.swagger.v3.oas.annotations.media.Schema;
+
 import java.util.Objects;
 
+@Schema(description = "Dto that received from client for purpose to receive new access token and contains refresh token")
 public class RefreshRequestDto {
 
+    @Schema(description = "Refresh token")
     private String refreshToken;
 
     public String getRefreshToken() {

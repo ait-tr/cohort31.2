@@ -1,11 +1,19 @@
 package de.aittr.g_31_2_jwt.security.sec_dto;
 
+import io.swagger.v3.oas.annotations.media.Schema;
+
 import java.util.Objects;
 
+@Schema(description = "Dto that transfer to user after successfully authentication and contains access and refresh tokens")
 public class TokenResponseDto {
 
+    @Schema(description = "Access token")
     private String accessToken;
+
+    @Schema(description = "Refresh token")
     private String refreshToken;
+
+    @Schema(description = "Message about error reasons (if some error occurs)")
     private String message;
 
     public TokenResponseDto(String accessToken, String refreshToken) {
@@ -25,17 +33,21 @@ public class TokenResponseDto {
         return refreshToken;
     }
 
+    public String getMessage() {
+        return message;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         TokenResponseDto that = (TokenResponseDto) o;
-        return Objects.equals(accessToken, that.accessToken) && Objects.equals(refreshToken, that.refreshToken);
+        return Objects.equals(accessToken, that.accessToken) && Objects.equals(refreshToken, that.refreshToken) && Objects.equals(message, that.message);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(accessToken, refreshToken);
+        return Objects.hash(accessToken, refreshToken, message);
     }
 
     @Override
@@ -43,6 +55,7 @@ public class TokenResponseDto {
         return "TokenResponseDto{" +
                 "accessToken='" + accessToken + '\'' +
                 ", refreshToken='" + refreshToken + '\'' +
+                ", message='" + message + '\'' +
                 '}';
     }
 }

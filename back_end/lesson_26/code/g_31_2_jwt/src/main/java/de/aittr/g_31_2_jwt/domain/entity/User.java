@@ -1,5 +1,6 @@
 package de.aittr.g_31_2_jwt.domain.entity;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.*;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -8,6 +9,7 @@ import java.util.Collection;
 import java.util.Objects;
 import java.util.Set;
 
+@Schema(description = "User entity")
 @Entity
 @Table(name = "user")
 public class User implements UserDetails {
@@ -17,9 +19,11 @@ public class User implements UserDetails {
     @Column(name = "id")
     private Integer id;
 
+    @Schema(description = "Username that use for logging in", example = "Vanya")
     @Column(name = "username")
     private String username;
 
+    @Schema(description = "User's raw password for logging in", example = "111")
     @Column(name = "password")
     private String password;
 
@@ -31,6 +35,10 @@ public class User implements UserDetails {
     )
     private Set<Role> roles;
 
+    @Schema(
+            description = "List of authorities granted to user",
+            accessMode = Schema.AccessMode.READ_ONLY
+    )
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return roles;
@@ -46,21 +54,36 @@ public class User implements UserDetails {
         return username;
     }
 
+    @Schema(
+            description = "True if user's account is not expired",
+            accessMode = Schema.AccessMode.READ_ONLY
+    )
     @Override
     public boolean isAccountNonExpired() {
         return true;
     }
 
+    @Schema(
+            description = "True if user's account is not locked",
+            accessMode = Schema.AccessMode.READ_ONLY
+    )
     @Override
     public boolean isAccountNonLocked() {
         return true;
     }
 
+    @Schema(
+            description = "True if user's credentials is not expired",
+            accessMode = Schema.AccessMode.READ_ONLY
+    )
     @Override
     public boolean isCredentialsNonExpired() {
         return true;
     }
 
+    @Schema(description = "True if user is enabled",
+            accessMode = Schema.AccessMode.READ_ONLY
+    )
     @Override
     public boolean isEnabled() {
         return true;

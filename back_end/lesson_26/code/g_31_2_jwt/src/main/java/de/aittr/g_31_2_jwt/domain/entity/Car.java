@@ -1,24 +1,30 @@
 package de.aittr.g_31_2_jwt.domain.entity;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.*;
 
 import java.util.Objects;
 
+@Schema(description = "Car entity")
 @Entity
 @Table(name = "car")
 public class Car {
 
+    @Schema(description = "Car unique identifier", example = "15")
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private Integer id;
 
+    @Schema(description = "Car brand", example = "Honda")
     @Column(name = "brand")
     private String brand;
 
+    @Schema(description = "Year of car manufacture", example = "2022")
     @Column(name = "year")
     private int year;
 
+    @Schema(description = "Car price", example = "50000")
     @Column(name = "price")
     private double price;
 
